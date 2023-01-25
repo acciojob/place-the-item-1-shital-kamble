@@ -7,23 +7,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <style>
-    .flex-container {
+    .holder {
       display: flex;
-      flex-direction: row;
-      background-color: dodgerblue;
-      justify-content: flex-start;
-      justify-content: flex-end;
-
-    }
-
-    .flex-container>div {
-      justify-content: center;
-      background-color: darkgray;
-      text-align: center;
-      width: 100%;
-      margin: 10px;
-      
-      font-size: 30px;
+    justify-content: space-between;
+  
+    align-items: flex-start;
+    flex-wrap: wrap;
 
 
 
@@ -32,7 +21,7 @@
 </head>
 
 <body>
-  <div class="flex-container">
+  <div class="holder">
     <div>1</div>
     <div>2</div>
     <div>3</div>
